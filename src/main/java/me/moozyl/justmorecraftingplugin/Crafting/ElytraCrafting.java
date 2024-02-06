@@ -10,11 +10,11 @@ public class ElytraCrafting {
         ItemStack customItem = new ItemStack(Material.ELYTRA);
         ShapedRecipe recipe = new ShapedRecipe(customItem);
 
-        recipe.shape("FLF", "PCP", "LEL");
+        recipe.shape("PDP", "PLP", "FLF");
 
         recipe.setIngredient('F', Material.FEATHER);
         recipe.setIngredient('P', Material.PHANTOM_MEMBRANE);
-        recipe.setIngredient('C', Material.NETHERITE_CHESTPLATE);
+        recipe.setIngredient('D', Material.DIAMOND);
         recipe.setIngredient('E', Material.NETHERITE_INGOT, 2);
         recipe.setIngredient('L', Material.AIR);
     }
