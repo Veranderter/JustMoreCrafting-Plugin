@@ -1,0 +1,4 @@
+name: JustMoreCrafting-Plugin
+version: '${project.version}'
+main: me.moozyl.justmorecraftingplugin.JustMoreCrafting_Plugin
+api-version: '1.18'
